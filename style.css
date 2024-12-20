@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');   /*Importação da fonte Poppins do GoogleFonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
+
     /* Estilo geral da página */
     body {
         font-family: "Poppins", sans-serif;
@@ -6,26 +7,35 @@
         padding: 0;
         background-color: #f5f5f5;
         color: #333;
+        cursor: default;
+      }
+
+      .logo-img {
+        width: 80px;
+        height: auto;
       }
   
       header {
-        background-color: #4CAF50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 30px;
+        background-color: #003184;
         color: white;
-        padding: 20px 0;
-        text-align: center;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
       }
   
       header h1 {
         margin: 0;
-        font-size: 2em;
+        font-size: 1.8em;
       }
   
-      header h2 {
-        margin: 5px 0 0;
-        font-weight: normal;
-        font-size: 1.2em;
-        color: #e8f5e9;
+      .tituloCabecalho {
+        margin: 0;
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
       }
 
       .tituloConteudo {
@@ -34,8 +44,8 @@
   
       /* Estilo da tabela */
       table {
-        width: 90%;
-        margin: 30px auto;
+        width: 80%;
+        margin: 10px auto;
         border-collapse: separate; /* Permite espaçamento entre as células */
         border-spacing: 0; /* Remove espaço extra entre as bordas */
         background-color: white;
@@ -45,13 +55,14 @@
       }
   
       th, td {
-        padding: 15px;
+        padding: 10px;
         text-align: center;
         position: relative; /* Necessário para a linha separadora */
+        vertical-align: middle; /* Centraliza verticalmente */
       }
   
       th {
-        background-color: #4CAF50;
+        background-color: #00ff0d !important; 
         color: white;
         text-transform: uppercase;
       }
@@ -82,20 +93,19 @@
 
       td.home-office {
         background-color: #c8e6c9;
-        color: #2e7d32;
+        color: #00ff0d;
         font-weight: bold;
       }
   
       td.home-office:hover {
-        background-color: #a5d6a7;
+        background-color: #00ff0d;
       }
   
-      /* Rodapé */
-      footer {
-        text-align: center;
-        padding: 10px 0;
-        margin-top: 20px;
-        background-color: #4CAF50;
-        color: white;
-        font-size: 0.9em;
+      .horario {
+        display: block; /* Exibe o horário em uma nova linha */
+        font-size: 0.7em; /* Reduz o tamanho do texto */
+        color: #555; /* Define uma cor mais discreta */
+        margin-top: 1px; /* Espaçamento entre "Home Office" e o horário */
+        font-weight: 500;
+        
       }

@@ -9,15 +9,52 @@
 </head>
 
 <body>
-    <!-- Cabeçalho -->
-    <header>
+  <!-- Cabeçalho -->
+    <header class="d-flex align-items-center justify-content-center p-3 position-relative">
+      <div class="position-absolute start-0 ps-3">
+        <img src="assets/img/aiko-logo.png" alt="Logotipo Aiko Digital" class="logo-img">
+      </div>
       <h1 class="tituloCabecalho">Painel do Suporte</h1>
-      <h2 class="subtituloCabecalho">Aiko Digital</h2>
     </header>
-
+  <!------------------------------------------------------------>
+  <!--Menu Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plantoes.html">Plantões</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Treinamentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Zendesk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Querys</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OKRs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-------------------------------------------------------------------------------->
   <!-- Conteúdo -->
+  <!-- Escala Home Office-->
   <div class="container mt-4">
-    <h1 class="tituloConteudo text-center mb-6">Escala de Home Office</h1>
+    <h1 class="tituloConteudo text-center mb-8">Escala Home Office</h1>
     <div class="table-responsive">
       <table class="table table-bordered table-hover">
         <thead class="table-success text-center">
@@ -33,71 +70,172 @@
         <tbody>
           <tr>
             <td>Eduardo</td>
-            <td class="home-office">Home Office</td>
-            <td class="home-office">Home Office</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td class="home-office">Home Office<span class="horario">08:00 - 17:00</span></td>
+            <td class="home-office">Home Office<span class="horario">08:00 - 17:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
           </tr>
           <tr>
             <td>Eloane</td>
-            <td class="home-office">Home Office</td>
-            <td class="home-office">Home Office</td>
-            <td class="home-office">Home Office</td>
-            <td class="home-office">Home Office</td>
-            <td class="home-office">Home Office</td>
+            <td class="home-office">Home Office<span class="horario">07:00 - 13:00</span></td>
+            <td class="home-office">Home Office<span class="horario">07:00 - 13:00</span></td>
+            <td class="home-office">Home Office<span class="horario">07:00 - 13:00</span></td>
+            <td class="home-office">Home Office<span class="horario">07:00 - 13:00</span></td>
+            <td class="home-office">Home Office<span class="horario">07:00 - 13:00</span></td>
           </tr>
           <tr>
             <td>Emerson</td>
-            <td class="home-office">Home Office</td>
-            <td></td>
-            <td></td>
-            <td class="home-office">Home Office</td>
-            <td></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
           </tr>
           <tr>
             <td>Ender</td>
-            <td></td>
-            <td></td>
-            <td class="home-office">Home Office</td>
-            <td></td>
-            <td class="home-office">Home Office</td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">08:00 - 17:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">08:00 - 17:00</span></td>
           </tr>
           <tr>
             <td>Iago</td>
-            <td class="home-office">Home Office</td>
-            <td></td>
-            <td></td>
-            <td class="home-office">Home Office</td>
-            <td></td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">08:00 - 17:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
           </tr>
           <tr>
             <td>Lucas</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
+          </tr>
+          <tr>
+            <td>Samuel</td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
+            <td class="home-office">Home Office<span class="horario">09:00 - 18:00</span></td>
+            <td><span class="horario">09:00 - 18:00</span></td>
           </tr>
           <tr>
             <td>Victor</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><span class="horario">12:00 - 18:00</span></td>
+            <td><span class="horario">12:00 - 18:00</span></td>
+            <td><span class="horario">12:00 - 18:00</span></td>
+            <td><span class="horario">12:00 - 18:00</span></td>
+            <td><span class="horario">12:00 - 18:00</span></td>
           </tr>
         </tbody>
       </table>
     </div>
+<!-------------------------------------------------------------------------------->
+<!--Escala Fila-->
+  <h1 class="tituloConteudo text-center mt-5">Escala Fila de Atendimento</h1>
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover">
+      <thead class="table-success text-center">
+        <tr>
+          <th>Colaborador</th>
+          <th>Segunda</th>
+          <th>Terça</th>
+          <th>Quarta</th>
+          <th>Quinta</th>
+          <th>Sexta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Eloane</td>
+          <td><span class="horario">07:00 - 13:00</span></td>
+          <td><span class="horario">07:00 - 13:00</span></td>
+          <td><span class="horario">07:00 - 13:00</span></td>
+          <td><span class="horario">07:00 - 13:00</span></td>
+          <td><span class="horario">07:00 - 13:00</span></td>
+        </tr>
+        <tr>
+          <td>Victor</td>
+          <td><span class="horario">13:00 - 18:00</span></td>
+          <td><span class="horario">13:00 - 18:00</span></td>
+          <td><span class="horario">13:00 - 18:00</span></td>
+          <td><span class="horario">13:00 - 18:00</span></td>
+          <td><span class="horario">13:00 - 18:00</span></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-
-  <!-- Rodapé -->
-  <footer>
-    &copy; 2024 Aiko Digital - Todos os direitos reservados.
-  </footer>
-
-  <!-- Bootstrap JS -->
+<!-------------------------------------------------------------------------------->
+<!--Escala Fila-->
+<h1 class="tituloConteudo text-center mt-5">Líder Daily</h1>
+<div class="table-responsive">
+  <table class="table table-bordered table-hover w-auto">
+    <thead class="table-success text-center">
+      <tr>
+        <th>Semana</th>
+        <th>Líder</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Semana 1</td>
+        <td>Samuel</td>
+      </tr>
+      <tr>
+        <td>Semana 2</td>
+        <td>Emerson</td>
+      </tr>
+      <tr>
+        <td>Semana 3</td>
+        <td>Eduardo</td>
+      </tr>
+      <tr>
+        <td>Semana 4</td>
+        <td>Weslen</td>
+      </tr>
+      <tr>
+        <td>Semana 5</td>
+        <td>Erick</td>
+      </tr>
+      <tr>
+        <td>Semana 6</td>
+        <td>Eloane</td>
+      </tr>
+      <tr>
+        <td>Semana 7</td>
+        <td>Matheus</td>
+      </tr>
+      <tr>
+        <td>Semana 8</td>
+        <td>Yasmin</td>
+      </tr>
+      <tr>
+        <td>Semana 9</td>
+        <td>Ender</td>
+      </tr>
+      <tr>
+        <td>Semana 10</td>
+        <td>Iago</td>
+      </tr>
+      <tr>
+        <td>Semana 11</td>
+        <td>Lucas</td>
+      </tr>
+      <tr>
+        <td>Semana 12</td>
+        <td>Victor</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<!-------------------------------------------------------------------------------->
+<!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-q7Iae3pR6mkmRCFBLkG9Opoh0qxSNnsxGlHQ0VE6I9Ml+5He6av2mZH7iwl5yF5c" crossorigin="anonymous"></script>
 </body>
 </html>
